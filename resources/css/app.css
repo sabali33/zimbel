@@ -1,0 +1,30 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+@import "./style.css";
+.icon{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.ml-100-16{
+    margin-left: 16.666%;
+}
+#worldpay-section iframe,
+#worldpay-section div{
+    width: 100% !important;
+}
+.columns{
+    columns: 2;
+    column-gap: 2rem;
+}
+.preview-featured span.selected span{
+    padding: 3px;
+    display: inline-block;
+    position: absolute;
+    right: -1.5rem;
+    top: -6px;
+    font-size: 20px;
+    color: red;
+}
